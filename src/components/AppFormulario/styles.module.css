@@ -1,0 +1,30 @@
+.bodyFormulario{
+  margin: 10px;
+}
+.bodyFormTitulo{
+  margin: 7px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bodyFormMensagem{
+  padding: 0px 0px;
+  border-radius: 0px;
+  /* border: 1px solid black; */
+}
+
+.bodyFormInfo{
+  padding: 0px;
+}
+
+.inputs{
+  margin: 7px 0px;
+}
+
+.botao{
+  width: 100%;
+  padding: 7px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
