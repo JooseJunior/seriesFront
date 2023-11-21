@@ -1,3 +1,6 @@
+Link Figma:
+https://www.figma.com/file/BCeiBCoOgc0PIWSdLLWDM3qR/Minhas-S%C3%A9ries?type=design&node-id=0-1&mode=design&t=E8Hi9V2Rq0Cu6BIg-0
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -1,27 +1,36 @@
-.page{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.container{
-    flex-grow: 1;
-}
-
 .footer{
-    background-color: rgb(32, 32, 32);
+    background-color: #000000;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 13px;
     padding: 5px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     /* position: fixed; */
     bottom: 0;
     width: 100%;
-    min-height: 40px;
+    min-height: 100px;
 
     /* align-items: center; */
     /* justify-content: space-between; */
     /* align-content: flex-end; */
+}
+
+.novidades{
+    margin-left: 5%;
+}
+.novidadesInput{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    margin-left: 35%;
+    align-items: left;
+    justify-content: space-between;
+    height: 80px;
 }

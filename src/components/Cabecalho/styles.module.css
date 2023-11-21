@@ -1,14 +1,35 @@
 .header{
-    background-color: rgb(26, 35, 112);
+    background-color: #000000;
     color: rgb(255, 255, 255);
-    font-size: 20px;
     padding: 5px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.titulo{
-    justify-content: start;
     flex-direction: row;
-    font-size: 21px;
+    justify-content: start;
+    align-items: center;
+    min-height: 35px;
+    width: 100%;
+}
+
+.itens{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.itens h1 {
+    font-size: 19px;
+}
+
+.itens h2 {
+    font-size: 20px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 0px 5px;
+}
+
+.itens h3 {
+    font-size: 13px;
 }

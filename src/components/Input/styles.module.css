@@ -4,9 +4,10 @@
     margin:  0.02rem 0;
     padding: 0.50rem 0.50rem;
     border-radius: 2px;
-    box-shadow: 1px 1px 6px #0000001c;
+    box-shadow: 1px 1px 1px #0000001c;
+    outline: none;
 }
 
 .input:hover{
-    box-shadow: 1px 2px 15px #0000001c;
+    box-shadow: 1px 1px 1cm #0000001c;
 }
