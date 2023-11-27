@@ -22,22 +22,25 @@ export default function Home() {
       <main className={styles.main}>
         <Cabecalho/>
 
-        <body className={styles.body}>
+        <div className={styles.body}>
 
           <div className={styles.capa}>
             <div className={styles.subcapa}>
-              <h1>Bem Vindo(a)</h1>
-              <h2>Explore suas séries favoritas</h2>
-              <div className={styles.busca}>
 
+              <div className={styles.info}>
+                <h1>Bem Vindo(a)</h1>
+                <h2>Explore suas séries favoritas</h2>
+              </div>
+
+              <div className={styles.busca}>
                 <Input
-                  style={{width: '700px', height: '100%'}} 
+                  style={{width: '950px', height: '30px'}} 
                   type={'text'} 
                   placeholder={'Buscar por uma série..'}
                 ></Input>
 
-                <Button 
-                  style={{width: '100px', height: '100%'}}
+                <Button
+                  style={{width: '100px', height: '30px'}}
                 >Buscar</Button>
 
               </div>
@@ -48,7 +51,7 @@ export default function Home() {
 
           </div>
 
-        </body>
+        </div>
 
         <Rodape/>
       </main>

@@ -28,12 +28,8 @@ export default function CardList({}){
                 <Card
                     // key={e.id}
                     id={e.id}
-                    imagem={e.imagem}
                     titulo={e.titulo}
-                    descricao={e.descricao}
-                    local={e.local}
-                    dataInicial={formatarData(e.dataInicial)}
-                    dataFinal={formatarData(e.dataFinal)}
+                    imagem={e.imagem}
                 />
             ))}
         </div>
